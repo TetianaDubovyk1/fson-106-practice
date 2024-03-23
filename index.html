@@ -21,33 +21,49 @@
   </head>
 
   <body>
-    <header>
+    <header class="header">
       <div class="container">
-        <nav>
-          <a href=""
-            >SIMPLY CHOCOLATE<img src="./images/chocolate.svg" alt="chocolate"
+        <nav class="header-navigation">
+          <a class="header-logo" href=""
+            ><span class="logo-span-cursive">SIMPLY</span>CHOCOLATE
+            <img
+              class="header-logo-icon"
+              src="./images/chocolate.svg"
+              alt="chocolate"
           /></a>
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">How it's made?</a></li>
-            <li><a href="">Chocolate is loved</a></li>
+          <ul class="header-menu-list">
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="">Home</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="">How it's made?</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="">Chocolate is loved</a>
+            </li>
           </ul>
         </nav>
-        <ul>
-          <li>
-            <a href="" target="_blank"
-              ><img src="./images/facebook.svg" alt="facebook"
-            /></a>
+        <ul class="header-socialmedia-list">
+          <li class="header-socialmedia-item">
+            <a class="header-socialmedia-link" href="" target="_blank">
+              <svg class="header-socialmedia-icon" width="24" height="24">
+                <use href="./images/icon.svg#icon-facebook"></use>
+              </svg>
+            </a>
           </li>
           <li>
-            <a href="" target="_blank"
-              ><img src="./images/instagram.svg" alt="instagram"
-            /></a>
+            <a class="header-socialmedia-link" href="" target="_blank">
+              <svg class="header-socialmedia-icon" width="24" height="24">
+                <use href="./images/icon.svg#icon-instagram"></use>
+              </svg>
+            </a>
           </li>
           <li>
-            <a href="" target="_blank"
-              ><img src="./images/icon-twitter.svg" alt="twitter"
-            /></a>
+            <a class="header-socialmedia-link" href="" target="_blank"
+              ><svg class="header-socialmedia-icon" width="24" height="24">
+                <use href="./images/icon.svg#icon-twitter"></use>
+              </svg>
+            </a>
           </li>
         </ul>
       </div>
@@ -107,75 +123,85 @@
           </ul>
         </div>
       </section>
-      
+
       <section class="ingridients">
-         <div class="container">
-        <h2 class="ingrid-tittle">It all adds up to one exceptional <span class="accent">taste</span> sensation</h2>
-        <ul class="ingrid-list">
-          <li class="ingrid-item">
-            <img class="ingrid-pic"
-              src="./images/img-milk-choko-1.jpg"
-              alt="MILK CHOCOLATE"
-              width="214"
-              height="160"
-            />
-            <p class="ingrid-text">MILK CHOCOLATE</p>
-          </li>
-          <li class="ingrid-item">
-            <img class="ingrid-pic"
-              src="./images/img-milk-bottle-2.jpg"
-              alt="MILK"
-              width="214"
-              height="160"
-            />
-            <p class="ingrid-text">MILK</p>
-          </li>
-          <li class="ingrid-item">
-            <img class="ingrid-pic"
-              src="./images/img-nuts-3.jpg"
-              alt="NUTS"
-              width="214"
-              height="160"
-            />
-            <p class="ingrid-text">NUTS</p>
-          </li>
-          <li class="ingrid-item">
-            <img class="ingrid-pic"
-              src="./images/img-4-semi-sweet-choko.jpg"
-              alt="SEMI - SWEET CHOCOLATE"
-              width="214"
-              height="160"
-            />
-            <p class="ingrid-text">SEMI - SWEET CHOCOLATE</p>
-          </li>
-          <li class="ingrid-item">
-            <img class="ingrid-pic"
-              src="./images/img-cacao-5.jpg"
-              alt="CACAO"
-              width="214"
-              height="160"
-            />
-            <p class="ingrid-text">CACAO</p>
-          </li>
-          <li class="ingrid-item">
-            <img class="ingrid-pic"
-              src="./images/img-rasberry-6.jpg"
-              alt="RASPBERRY"
-              width="214"
-              height="160"
-            />
-            <p class="ingrid-text">RASPBERRY</p>
-          </li>
-          <li class="ingrid-item">
-            <img class="ingrid-pic"
-              src="./images/img-coconut-7.jpg"
-              alt="COCONUT OIL"
-              width="214"
-              height="160"
-            />
-            <p class="ingrid-text">COCONUT OIL</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="ingrid-tittle">
+            It all adds up to one exceptional
+            <span class="accent">taste</span> sensation
+          </h2>
+          <ul class="ingrid-list">
+            <li class="ingrid-item">
+              <img
+                class="ingrid-pic"
+                src="./images/img-milk-choko-1.jpg"
+                alt="MILK CHOCOLATE"
+                width="214"
+                height="160"
+              />
+              <p class="ingrid-text">MILK CHOCOLATE</p>
+            </li>
+            <li class="ingrid-item">
+              <img
+                class="ingrid-pic"
+                src="./images/img-milk-bottle-2.jpg"
+                alt="MILK"
+                width="214"
+                height="160"
+              />
+              <p class="ingrid-text">MILK</p>
+            </li>
+            <li class="ingrid-item">
+              <img
+                class="ingrid-pic"
+                src="./images/img-nuts-3.jpg"
+                alt="NUTS"
+                width="214"
+                height="160"
+              />
+              <p class="ingrid-text">NUTS</p>
+            </li>
+            <li class="ingrid-item">
+              <img
+                class="ingrid-pic"
+                src="./images/img-4-semi-sweet-choko.jpg"
+                alt="SEMI - SWEET CHOCOLATE"
+                width="214"
+                height="160"
+              />
+              <p class="ingrid-text">SEMI - SWEET CHOCOLATE</p>
+            </li>
+            <li class="ingrid-item">
+              <img
+                class="ingrid-pic"
+                src="./images/img-cacao-5.jpg"
+                alt="CACAO"
+                width="214"
+                height="160"
+              />
+              <p class="ingrid-text">CACAO</p>
+            </li>
+            <li class="ingrid-item">
+              <img
+                class="ingrid-pic"
+                src="./images/img-rasberry-6.jpg"
+                alt="RASPBERRY"
+                width="214"
+                height="160"
+              />
+              <p class="ingrid-text">RASPBERRY</p>
+            </li>
+            <li class="ingrid-item">
+              <img
+                class="ingrid-pic"
+                src="./images/img-coconut-7.jpg"
+                alt="COCONUT OIL"
+                width="214"
+                height="160"
+              />
+              <p class="ingrid-text">COCONUT OIL</p>
+            </li>
+          </ul>
         </div>
       </section>
 
@@ -362,7 +388,7 @@
           </ul>
         </div>
       </section>
-   
+
       <section>
         <h2>Chocolate is loved</h2>
         <ul>

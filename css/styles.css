@@ -77,15 +77,84 @@ ul {
 img {
     display: block;
 }
-.container {
-    width: 1168px;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin: 0 auto;
-}
+
 span {
     color: #fd9222;
 }
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/*==========HEADER========*/
+.header{
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
+.header-navigation{
+    display: flex;
+    align-items: center;
+}
+
+.header-logo{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    color: #111;
+    display: flex;
+    align-items: center;
+}
+
+.logo-span-cursive{
+    font-style: italic;
+}
+
+.header-logo-icon{}
+
+.header-menu-list{
+    display: flex;
+    align-items: center;
+}
+
+.header-menu-item{}
+
+.header-menu-link{}
+
+.header-socialmedia-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.header-socialmedia-item{}
+
+.header-socialmedia-link{
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+   
+}
+
+.header-socialmedia-icon{
+    
+}
+/*===========HERO=========*/
+
 /* benefits */
 .benefits {}
 
